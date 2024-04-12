@@ -32,6 +32,13 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
                es: "default",
                ja: "デフォルト",
             }
+
+            code: `voronoi(10, 1.5, 0.4).color(1, 0, 3,).out(o0)`,
+            comments: {
+               en: "Make it move faster and add some color with color(r, g, b)",
+               es: "default",
+               ja: "デフォルト",
+            }
          },
          {
             code: `voronoi(25,2,10).color(1,1,0).brightness(0.15).out(o0)`,
