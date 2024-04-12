@@ -32,13 +32,6 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
                es: "default",
                ja: "デフォルト",
             }
-
-            code: `voronoi(10, 1.5, 0.4).color(1, 0, 3,).out(o0)`,
-            comments: {
-               en: "Make it move faster and add some color with color(r, g, b)",
-               es: "default",
-               ja: "デフォルト",
-            }
          },
          {
             code: `voronoi(25,2,10).color(1,1,0).brightness(0.15).out(o0)`,
@@ -46,6 +39,14 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
                en: "fireflies",
                es: "luciérnagas",
                ja: "蛍",
+            }
+         }
+         {
+            code: `voronoi(10,5,3).color(1,1,0).out(o0)`,
+            comments: {
+               en: "make it faster and add some color with color(r, g, b)",
+               es: "hazlo más rápido y agrega algo de color con color(r, g, b)",
+               ja: "より速くして、color(r, g, b)で色を追加します。",
             }
          }
       ]
